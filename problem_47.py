@@ -2,9 +2,7 @@
 # Find and fix the error
 
 def starts_with(text, char):
-    if text[0] == char:
-        return True
-    return False
+    return text.startswith(char)
 
 word = "Python"
 print(f"Starts with 'P': {starts_with(word, 'P')}")
